@@ -32,10 +32,56 @@
       <hr>
       <section style="background-color:#ffffff">
          <article>
-            <h2>Inicio</h2>
+            <h2>Registro</h2>
             <div>
-               <center><img src="../images/tres.jpg" width="400" height="300" alt="tres"></center>
-               <p align="center">Somos una compañia que nos dedicamos a la reparación de computadoras.</p>
+               <div>
+                 <form>
+                   <fieldset >
+                       <legend><strong> Usuario nuevo </strong></legend>
+                           <br>
+                           <div>
+                              <label for="mail">Email: *</label><br>
+                              <input type="email" id="mail" required style="width:250px;height:20px;border-width:thin"/>
+                           </div>
+                           <br>
+                           <div>
+                              <label for="contraseña">Contraseña: *</label><br>
+                              <input type="password" id="contrasena" required style="width:220px;height:20px;border-width:thin"/>
+                           </div>
+                           <br>
+                           <div>
+                               <label for="contraseña">Confirmación de Contraseña: *</label><br>
+                              <input type="password" id="contrasena" required style="width:220px;height:20px;border-width:thin"/>
+                           </div>
+                           <br>
+                           <div >
+                              <label for="dondenosvio">¿Dónde nos vio...?</label><br>
+                              <input type="radio" id="google" value="G" name="google">
+                              <label for="manana">Google</label>
+                              <input type="radio" id="facebook" value="F" name="facebook">
+                              <label for="manana">Facebook</label>
+                              <input type="radio" id="instagram" value="I" name="instagram">
+                              <label for="manana">Instagram</label>
+                              <input type="radio" id="otro" value="O" name="otro">
+                              <label for="manana">Otro</label>
+                           </div>
+                           <div>
+                           <br>
+                              <label for="msg">Comentario: *</label><br>
+                              <textarea id="msg" required style="width:220px;height:30px"></textarea>
+                           </div>
+                           <br>
+                           <div >
+                              <input type="checkbox" name="1" value="acepto" required> Acepto Términos y Condiciones<br>
+                           </div>
+                           <br>
+                           <div class="button"></div>
+                              <button type="submit">Continuar</button>
+                           </div>
+                           <br>
+                     </fieldset> 
+                  </form >
+               </div>
             </div>
          </article>
       </section>
